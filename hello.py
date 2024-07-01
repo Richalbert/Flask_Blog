@@ -15,3 +15,11 @@ def hello():                # en fonction d'affichage Flask et qui transforme
 
 # Commande pour lancer l'application Flask
 #    flask --app hello run
+#
+# ou bien on configure des variables d'environnement suivantes
+#    export FLASK_APP=hello
+#    flask run
+#
+# ou export FLASK_APP=hello
+#    export FLAK_ENV=development
+#    flask run
